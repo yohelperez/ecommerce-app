@@ -1,1 +1,8 @@
-<h3>Store</h3>
+{% extends 'store/main.html' %} <!--inheriting from that template-->
+ 
+{% load static %} <!-- loads css file in static folder -->
+<!--<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}"> -->
+
+{% block content %} <!-- block content from main.html-->
+    <h3>Store</h3>
+{% endblock content %}
