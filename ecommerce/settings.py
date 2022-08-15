@@ -124,7 +124,14 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
 
+MEDIA_URL = '/images/'  #path to find images to be able to render them
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images') #folder to save pictures
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+

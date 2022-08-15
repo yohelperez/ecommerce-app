@@ -15,8 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls.static import static #imports static function we need
+from django.conf import settings #gives access to settings where are stored info of where to save images
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('store.urls'))     #includes urls.py created in store folder
 ]
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
