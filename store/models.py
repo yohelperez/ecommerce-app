@@ -35,6 +35,7 @@ class Order(models.Model):
     date_ordered = models.DateTimeField(auto_now_add=True)
     complete = models.BooleanField(default=False, null = True, blank = False) #if its complete then the order has been made
     transaction_id = models.CharField(max_length=200, null=True)
+    status = models.CharField(max_length=200, null=True)
     
     def __str__(self):
         return str(self.id)
@@ -61,7 +62,8 @@ class Order(models.Model):
         orderitems = self.orderitem_set.all()
         total = sum([item.quantity for item in orderitems])
         return total 
-
+    
+    
 class OrderItem(models.Model):
     product = models.ForeignKey(Product, on_delete=models.SET_NULL, blank=True, null = True)
     order = models.ForeignKey(Order, on_delete=models.SET_NULL, blank= True, null= True)

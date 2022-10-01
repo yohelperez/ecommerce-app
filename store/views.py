@@ -118,3 +118,21 @@ def processOrder(request):
         print('user is not logged in...')
     
     return JsonResponse('Payment submitted..', safe=False)
+
+def track(request):
+    if request.user.is_authenticated:
+        customer = request.user.customer
+        order, created = Order.objects.get_or_create(customer=customer, complete= False) #tries to query the customer to attach the order, if does not exist it created it and attaches order
+        items = order.orderitem_set.all()      #asigna los items de la orden a items
+        cartItems = order.get_cart_items
+        transaction_id = order.transaction_id
+        status = order.status
+        
+    else:
+        #instructions when user is not logged in
+        items = []
+        order = {'get_cart_total': 0, 'get_cart_items': 0, 'shipping':False} #shows 0 for cart total and cart items when user is not logged in
+        cartItems = order['get_cart_items']
+    
+    context = {'items': items, 'order': order, 'cartItems': cartItems, 'transaction_id': transaction_id, 'status': status }
+    return render(request, 'store/track.html', context)
