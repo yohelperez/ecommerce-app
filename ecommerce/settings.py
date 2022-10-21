@@ -126,6 +126,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
+django_heroku.settings(locals())
 
 MEDIA_URL = '/images/'  #path to find images to be able to render them
 
@@ -136,6 +137,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images') #folder to save pictures
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-django_heroku.settings(locals())
+
 
 
