@@ -4,6 +4,10 @@
 
 Laptop seller app made with Django and SQLite that allows searching for laptops, adding them to the cart, and buying them using a PayPal API.
 
+<br />
+
+#### Cart
+
 ![image](https://user-images.githubusercontent.com/55060788/197676815-b53f4a6c-9f7a-482f-896e-39fe6fe3be89.png)
 
 #### PayPal API <br />
