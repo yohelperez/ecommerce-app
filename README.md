@@ -25,3 +25,4 @@ Laptop seller app made with Django and SQLite that allows searching for laptops,
 #### Order tracking
 ![image](https://user-images.githubusercontent.com/55060788/197678305-ca0660a9-bc19-4bc5-8623-82e75225c0cb.png)
 
+
