@@ -1,43 +1,40 @@
-# CERTIFICADO DE EXPERIENCIA: VIDEOJUEGO SALTARE
+# CERTIFICADO DE EXPERIENCIA: ECOMMERCE LAPTOP SELLER
 
 <br>
 <br>
 <br>
 
-Este certificado reconoce la experiencia adquirida durante la participación de **YOHEL OSVALDO PEREZ GARCIA** identificado con cédula de ciudadanía **1035921408** en el desarrollo e implementación exitosa del juego Saltare. A continuación, se detallan los aspectos clave del proyecto:
+Este certificado reconoce la experiencia adquirida durante la participación de **YOHEL OSVALDO PEREZ GARCIA** identificado con cédula de ciudadanía **1035921408** en el desarrollo e implementación exitosa de la Laptop Seller App. A continuación, se detallan los aspectos clave del proyecto:
 
 ## Información del Proyecto
 
-- **Nombre del Proyecto:** Saltare
-- **Duración del Proyecto:** Julio 2020
-- **Horas dedicadas:** 32 horas
-- **Enlace del proyecto:** [https://github.com/yohelperez/PlatformsGame](https://github.com/yohelperez/PlatformsGame)
-- **Sitio web:** [Simmer.io/Saltare](https://simmer.io/@YohelPerez/saltare)
+- **Nombre del Proyecto:** Laptop Seller
+- **Duración del Proyecto:** Julio 2022 - Octubre 2022 
+- **Horas dedicadas:** 80 horas
+- **Enlace del proyecto:** [https://github.com/yohelperez/ecommerce-app](https://github.com/yohelperez/ecommerce-app)
+- **Sitio web:** [laptop-seller.herokuapp.com](laptop-seller.herokuapp.com)
 
 ## Descripción del Proyecto
 
-Saltare es un juego de plataformas desarrollado utilizando C# y Unity publicado en el sitio web simmer.io. En este juego, la misión es guiar al personaje principal a través de varios niveles y ayudarlo a recolectar todas las frutas mientras se evitan obstáculos peligrosos.
+Laptop Seller App es una aplicación web desarrollada con Django y SQLite que permite buscar laptops, agregarlos al carrito y comprarlos utilizando la API de PayPal.
 
 ## Responsabilidades y Roles
 
 Durante la participación en el proyecto, asumió las siguientes responsabilidades y roles clave:
 
-- Desarrollo del gameplay, incluyendo movimientos, saltos y colisiones del personaje.
-- Diseño de los niveles del juego con diferentes desafíos y obstáculos.
-- Implementación de la recolección de frutas y puntuación del jugador.
-- Ajuste de la dificultad del juego para proporcionar una experiencia equilibrada y emocionante.
-- Incorporación de gráficos y sonidos para mejorar la experiencia visual y auditiva del juego.
+- Diseño y desarrollo del modelo de datos utilizando Django y SQLite para almacenar información sobre los articulos, los usuarios y compras.
+- Desarrollo del sistema de carrito de compras que permite a los usuarios agregar, eliminar articulos y consultar ordenes.
+- Integración de la API de PayPal para procesar los pagos de las compras.
+- Implementación de patron MVC.
 
 ## Logros Destacados
 
 Durante el desarrollo del proyecto, se lograron los siguientes resultados significativos:
 
-- Creación exitosa de un juego de plataformas entretenido y desafiante.
-- Uso de programación orientada a objetos.
-- Adquisición de habilidades en el desarrollo con Unity, uso de Assets y Prefabs entre otras herramientas para lograr un juego completo.
-- Diseño de niveles emocionantes y visualmente atractivos.
-- Implementación fluida de los movimientos del personaje y la física del juego.
-- Recepción positiva por parte de los jugadores y elogios por la jugabilidad y la experiencia general del juego.
+- Creación exitosa de una aplicación web funcional para la venta de articulos.
+- Implementación eficiente de la consulta de articulos y la funcionalidad del carrito de compras.
+- Integración exitosa de la API de PayPal para procesar los pagos de manera segura.
+- Adquisición de habilidades sólidas en el desarrollo web con Django y el uso de bases de datos SQLite.
 
 <br>
 <br>
